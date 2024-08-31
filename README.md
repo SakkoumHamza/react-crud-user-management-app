@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# React CRUD Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple CRUD app with basic functionality to create, read, update, and delete users. It demonstrates how to use React's core features, such as hooks and context API, to manage and manipulate data within the app.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add new users to the list
+- View all users in a table
+- Update user information
+- Delete users
+- Manage state using React Context API
+- Use `useState`, `useEffect`, and `useContext` hooks for state and side effects management
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Frontend library for building UI components
+- **Context API**: For managing global state across the app
+- **React Router**: For navigation between different pages
+- **Bootstrap**: For basic styling and layout
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+1. **Add a User**  
+   Click the "Add User" button to navigate to the user creation form.  
+   Fill in the user details and click "Create" to add the user to the list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **View Users**  
+   The home page displays a table of all users. If no users are present, a message indicating "No user found" will be displayed.
 
-### `npm run build`
+3. **Update a User**  
+   In the user table, click the "Update" button next to a user to navigate to the update form.  
+   Modify the user details and click "Update" to save the changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Delete a User**  
+   In the user table, click the "Delete" button next to a user to remove them from the list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Sakkoum Hamza**
+  - GitHub: [@sakkoumHamza](https://github.com/SakkoumHamza)
+  - LinkedIn: (www.linkedin.com/in/SakkoumHamza)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
